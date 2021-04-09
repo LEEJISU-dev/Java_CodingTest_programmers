@@ -3,6 +3,7 @@ import java.util.Stack;
 public class Solution {
 
 	public static String solution(String number, int k) {
+		// StringBuffer로 해야 시간초과 안생김
 		StringBuffer answer = new StringBuffer();
 		int index = 0;
 
